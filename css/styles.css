@@ -1,0 +1,170 @@
+* {
+    padding: 2;
+    margin: 0;
+    font-family: 'ubuntu', sans-serif;
+}
+body {
+    background: linear-gradient(180deg, rgb(10, 6, 68) 0%, #6363c9 );
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.background{
+    border-radius: 10px; /* Define um raio de 10 pixels para as bordas */ 
+    background-color: #3498db;
+    color: #150101;
+    text-align: center;
+    justify-content: center;
+    box-shadow: inset;
+    box-shadow: 7px 7px 30px 1px rgba(0, 0, 0, 0.3);
+}
+.hide {
+    display: none;
+}
+/* Estilos para telas maiores (desktop) */
+@media (min-width: 768px) {
+    .container {
+        max-width: 600px;
+        /* Outros estilos para telas maiores */
+    }
+}
+
+/* Estilos para telas menores (dispositivos móveis) */
+@media (max-width: 767px) {
+    .container {
+        max-width: 90%;
+        /* Outros estilos para telas menores */
+    }
+}
+.container {
+    background-color: #3498db;;    
+    padding: 2%;
+    color: #070000;    
+    border-radius: 1rem;
+    box-shadow: 3px 3px 30px 1px rgba(0, 0, 0, 0.3);
+}
+
+#city{    
+    font-size: 1.5rem;
+}
+#temperature{
+    margin: 1%;
+}
+/* -------- FORM ----------*/
+
+.form h3 {
+    margin-top: 1rem;
+}
+.form-input-container {
+    display: flex;
+}
+.form input {
+    padding: 2%;
+    border: none;
+    flex: 1;
+}
+/* ------ BUTONS ---------*/
+.buttons {
+    padding: 50px;
+    border-radius: 1px;
+   
+}
+#weather-floripa {
+    border-radius: 5rem;
+    padding: 10px;
+    background: linear-gradient(#267dc5, #ccc);
+    transition: background-color 0.8s, color 0.8s, border 0.8s; /* Adicione uma transição suave */
+}  
+  #weather-floripa:hover {
+    background-color: #007bff;
+    color: #fff;
+    border: 2px solid #007bff;   
+  }
+  
+  #weather-floripa:active {
+    background-color: #0056b3;
+    color: #fff;
+    border: 2px solid #0056b3;
+  }
+  
+#weather{    
+    border-radius: 5rem;
+    padding: 10px;
+    background: linear-gradient(#267dc5, #ccc);
+    transition: background-color 1s, color 1s, border 1s; /* Adicione uma transição suave */
+}
+  #weather:hover {
+    background-color: #007bff;
+    color: #fff;
+    border: 2px solid #007bff;    
+  }
+  
+  #weather:active {
+    background-color: #0056b3;
+    color: #fff;
+    border: 2px solid #0056b3;
+  }
+  #home {
+    border-radius: 5rem;
+    margin: 1rem;
+    padding: 10px;
+    background: linear-gradient(#267dc5, #ccc);
+    transition: background-color 0.8s, color 0.8s, border 0.8s; /* Adicione uma transição suave */
+}  
+  #home:hover {
+    background-color: #007bff;
+    color: #fff;
+    border: 2px solid #007bff;   
+  }
+  
+  #home:active {
+    background-color: #0056b3;
+    color: #fff;
+    border: 2px solid #0056b3;
+  }
+/* ------ BUTONS ---------*/
+
+
+#description-container {
+    display: flex;
+}
+/* ------ TITULOS ---------*/
+#titulo1{
+    font-size: 1rem;
+    color: #402b95;
+    margin: 5%;
+}
+#titulo2{
+  
+    color: rgb(0, 0, 0);
+    font-size: .8rem;
+}
+#titulo3{
+    font-size: 1.5rem;
+    color: #ffffff;
+    margin-left: 35%;
+}
+#titulo{
+   
+   
+    
+}
+/* ------ TITULOS ---------*/
+.dateS {
+    color: rgb(255, 255, 255);
+}
+.cityS{
+    color: blue;
+}
+#weather-data{
+    padding: 15%;
+   
+}
+#weather-data2 {
+    max-height: 200px; /* Altura máxima da div antes da barra de rolagem aparecer */
+    overflow: auto; /* Adiciona uma barra de rolagem quando o conteúdo excede a altura máxima */
+    border: 1px solid #ccc; /* Adicione uma borda para melhorar a aparência */
+    padding: 10px; /* Adiciona um espaço interno para o conteúdo */
+    
+}
