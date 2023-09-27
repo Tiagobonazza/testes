@@ -1,6 +1,6 @@
 # Caminhos para rodar em linux
 
-- Ao baixar o projeto para o sistema da empresa será criado uma pasta com todos os arquivos, o arquivo principal é o index.html, através dele será iniciado o projeto desde o começo com todas as rotas certinho, então basta apenas clicar em cima e fazê-lo rodar na máquina.
+- Ao baixar o projeto para o sistema da empresa será criado uma pasta com todos os arquivos, o arquivo principal é o index.html, através dele será iniciado o projeto desde o começo com todas as rotas na sequência, então clique em cima para rodar o pequeno projeto em suas respectivas máquinas.
 
 - Eu usei backEnd em JavaScript e a frontEnd aderi ao HTML puro ao invés de usar as tags HTMLs próprias do react, sendo que o ReactJS em si ja é uma biblioteca ou framework que utiliza essas duas linguagens + o css.
 
