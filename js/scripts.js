@@ -35,7 +35,7 @@
         cityElement.innerText = data.name;
         tempElement.innerText = parseInt(data.main.temp)// temperatuta vem quebrada, precisamos colocar o parseInt.
         descElement.innerText = data.weather[0].description;
-        weatherIconElement.setAttribute("src",`http://openweathermap.org/img/wn/${data.weather[0].icon}.png`);
+        weatherIconElement.setAttribute("src",`http://openweathermap.org/img/wn/${data.weather[0].icon}.png`); //altera o icone do clima de forma variável.
         countryElement.setAttribute("src", apiCountryURL + data.sys.country)//altera a bandeira do país
         umidityElement.innerText = `${data.main.humidity}%`;
         windElement.innerText = `${data.wind.speed} km/h`;
